@@ -1,17 +1,20 @@
 .navbar {
   background-color: #383838; }
-  .navbar a:hover {
+  .navbar .r-item:hover {
     color: gray; }
 
-.navbar-brand a {
+.navbar-brand .r-item {
   color: #fff;
   font-weight: bold; }
 
-a.r-item {
+.navbar-burger:hover {
+  background-color: #eeeeee; }
+
+.r-item {
   color: #c1c1c1;
   padding: 0.5rem 1.75rem; }
   @media screen and (max-width: 768px) {
-    a.r-item {
+    .r-item {
       color: gray; }
-      a.r-item:hover {
+      .r-item:hover {
         background-color: #f1f1f1; } }
